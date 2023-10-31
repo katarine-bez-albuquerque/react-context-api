@@ -4,7 +4,7 @@
 
 ## Sobre o projeto
 
-Projeto: [trabalho de react js](https://react-context-api-pi.vercel.app/)
+Projeto: [trabalho de react js](https://react-context-api-blond.vercel.app/)
 
 Site que salva o nome e o e-mail na memória através do formulário. Ao clicar em salvar, os dados são passados entre componentes, e para isso utilizo o Hook useContext do React.
 
