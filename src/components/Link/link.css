@@ -1,0 +1,16 @@
+a,
+a:link,
+a:visited,
+a:active {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 10px 5px;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: underline;
+}

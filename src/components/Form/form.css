@@ -1,0 +1,50 @@
+form {
+    width: 100%;
+    height: 230px;
+    display: flex;
+    justify-content: center;
+}
+
+form div {
+    width: 280px;
+    height: 100%;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    font-size: 14px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+
+form input[type="submit"] {
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: right;
+    background-color: #FFF;
+    border: 0 none;
+    cursor: pointer;
+}
+
+form section {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+    text-align: center;
+}
+
+form input:focus {
+    outline: 0 none;
+    border-bottom: 1px solid #000;
+}
+
+form input[type="submit"]:focus {
+    outline: 0 none;
+    border: 0 none;
+}

@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0 none;
+}
+
+@font-face {
+  font-family: "Gabarito", sans-serif;
+  src: local('./assets/fonts/Gabarito-VariableFont_wght.ttf');
+}
+
+body {
+  font-family: "Gabarito", sans-serif;
+}
+
+body::-webkit-scrollbar {
+  width: 0;
+}
+
+body,
+.page {
+  width: 100%;
+  height: 100vh;
+  background-color: #FFF;
+}
+
+.page {
+  max-width: 1280px;
+  padding: 20px 50px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
